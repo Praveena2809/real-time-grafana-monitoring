@@ -1,0 +1,12 @@
+apiVersion: 1
+
+providers:
+  - name: 'GrafanaOps Dashboards'
+    orgId: 1
+    folder: 'GrafanaOps'
+    type: file
+    disableDeletion: false
+    updateIntervalSeconds: 5
+    allowUiUpdates: true
+    options:
+      path: /etc/grafana/dashboards
